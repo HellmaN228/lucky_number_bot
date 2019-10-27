@@ -3,7 +3,7 @@ global year
 global mounth
 global day
 global answer
-bot = telebot.TeleBot(token = '507782457:AAECKqyHyNIGiZTd_8Oufy5OqQgQHHVGo7Y')
+bot = telebot.TeleBot(token = 'token')
 @bot.message_handler(commands=['instagram'])
 def handler_start(message):
         bot.send_message(message.chat.id,'www.instagram.com/pp_andr')
@@ -52,7 +52,7 @@ def headler_day(message):
         bot.send_message(message.chat.id, "Номера дня в диапазоне от 1 до 31. Попробуй еще раз") #проверка 2
         return bot.register_next_step_handler(message, headler_day)
 
-    bot.send_message(message.chat.id, "Отлично! Теперь мы прощитаем все и выдадим Вам результат)")
+    bot.send_message(message.chat.id, "Отлично! Теперь мы пощитаем все и выдадим Вам результат)")
     summ = sum(map(int, str(year)))
     summ += sum(map(int, str(mounth)))
     summ += sum(map(int, str(day)))
