@@ -9,5 +9,7 @@ Download this bot, take token in BotFather, replace your token.
 ## Usage
 
 In our bot we write the command 
-```/start```
- then follow the instructions.
+```bash
+/start```
+
+then follow the instructions.
