@@ -10,6 +10,7 @@ Download this bot, take token in BotFather, replace your token.
 
 In our bot we write the command 
 ```bash
-/start```
+/start
+```
 
 then follow the instructions.
